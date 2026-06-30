@@ -1,8 +1,8 @@
 #include <iostream>
 
-const int numStandards = 7;
-const long stdCode[numStandards] = { 199711L, 201103L, 201402L, 201703L, 202002L, 202302L, 202612L };
-const char* stdName[numStandards] = { "Pre-C++11", "C++11", "C++14", "C++17", "C++20", "C++23", "C++26" };
+const int numStandards { 7 };
+const long stdCode[numStandards] { 199711L, 201103L, 201402L, 201703L, 202002L, 202302L, 202612L };
+const char* stdName[numStandards] { "Pre-C++11", "C++11", "C++14", "C++17", "C++20", "C++23", "C++26" };
 
 long getCPPStandard()
 {
@@ -17,7 +17,7 @@ long getCPPStandard()
 
 int main()
 {
-    long standard = getCPPStandard();
+    long standard { getCPPStandard() };
 
     if (standard == -1)
     {
