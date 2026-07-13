@@ -13,5 +13,7 @@ int main()
     
     std::cout << "Your name is " << name << " and your favorite color is " << color << '\n';
 
+    std::cout << name << "has" << name.length() << "characters\n";
+
     return 0;
 }
