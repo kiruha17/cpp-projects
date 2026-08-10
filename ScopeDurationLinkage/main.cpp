@@ -37,7 +37,7 @@ namespace Hello
     {
         std::cout << "Hello";
     }
-    
+
     void printHelloThere()
     {
         print();
