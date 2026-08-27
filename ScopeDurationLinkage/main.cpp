@@ -3,6 +3,10 @@
 #include "circle.h"
 #include "growth.h"
 
+int g_x {};
+const int g_y { 1 };
+constexpr int g_z { 2 };
+
 namespace Foo
 {
     int doSomething(int x, int y)
